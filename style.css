@@ -1,0 +1,88 @@
+#grad {
+  background-image: linear-gradient(red, yellow);
+}
+h1 {
+    font-style: italic;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+h2 {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+a:hover {
+    background-color: #04AA6D;
+}
+#end{
+    text-align:center;
+}
+div.content{
+    text-align: center;
+}
+.topnav {
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 15px;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav img {
+     float: left;
+     padding: 0px;
+
+  
+  }
+  
+  /* Navbar links on mouse-over */
+  .topnav a:hover {
+    background-color: #04AA6D;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: rgb(43, 43, 43);
+    color: white !important;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  footer {
+    background-color: #b4b3b3;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 15%;
+     /* Set the position to fixed */
+  bottom: 0; /* Align the footer to the bottom */
+  width: 100%; /* Set the width to 100% */
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
