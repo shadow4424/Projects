@@ -1,0 +1,8 @@
+To input a valid username, please follow these instructions:
+
+1.Your username should only contain letters (uppercase or lowercase) and/or numbers.
+2.Special characters are not allowed in the username.
+3.The username should not be blank or empty.
+4.The maximum number of characters allowed for the username is 8.
+5.Must not include white spaces.
+6.Please make sure to follow these guidelines when entering your username.
