@@ -1,0 +1,130 @@
+.topnav {
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 15px;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav img {
+     float: left;
+     padding: 0px;
+
+  
+  }
+  
+  /* Navbar links on mouse-over */
+  .topnav a:hover {
+    background-color: #04AA6D;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: rgb(43, 43, 43);
+    color: white !important;
+  }
+
+
+
+  .quiz{
+    size: 100%;
+  }
+
+    :root {
+    --hue-neutral: 145;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+  }
+  
+    body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --hue: var(--hue-neutral); 
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  body.correct {
+    --hue: var(--hue-correct);
+  }
+  
+  body.wrong {
+    --hue: var(--hue-wrong);
+  }
+  
+  .container {
+    align-items:center;
+    text-align: center;
+    max-width: 90%;
+
+
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .btn:hover {
+    border-color: black;
+  }
+  
+  .btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+  }
+  
+  .btn.wrong {
+    --hue: var(--hue-wrong);
+    color: white;
+  }
+  
+  .start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight:300;
+    padding: 10px 20px;
+  }
+  
+  .results-container {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .controls {
+
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
